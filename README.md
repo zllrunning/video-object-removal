@@ -14,23 +14,20 @@ bash install.sh
 ```
 
 ## Demo
-- Download pretrained models of [SiamMask](wget http://www.robots.ox.ac.uk/~qwang/SiamMask_DAVIS.pth) and [Inpainting](https://drive.google.com/file/d/1KAi9oQVBaJU9ytr7dYr2WwEcO5NLiJvo/view?usp=sharing)
+- Download pretrained models of [SiamMask](http://www.robots.ox.ac.uk/~qwang/SiamMask_DAVIS.pth) and [Inpainting](https://drive.google.com/file/d/1KAi9oQVBaJU9ytr7dYr2WwEcO5NLiJvo/view?usp=sharing)
 - Put them in `cp/` folder
 - Then just run:
-```python
+```
 python demo.py --data data/Human6
 ```
-It also **supports video file**.
-```python
+- It also **supports video file**.
+```
 python demo.py --data data/bag.avi
 ```
 ---
-1. Just draw a bounding box like this:
+**1. Just draw a bounding box like this:**
 ![](results/get_mask.gif)
-2. You will get the object masks in `results/data/name_frame` folder.
-![](results/mask.gif)
-3. The `demo.py` will automatically use these masks to do video inpainting.
-4. The inpainted video will be saved in `results/inpainting` folder.
+**2. The objected will be removed and the inpainted video will be saved in `results/inpainting` folder.**
 ![](results/sgif.gif)
 
 ## I was really shocked by this overall visual effect.
