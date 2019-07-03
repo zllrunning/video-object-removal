@@ -26,9 +26,14 @@ python demo.py --data data/bag.avi
 ```
 ---
 **1. Just draw a bounding box like this:**
+
 ![](results/get_mask.gif)
+
 **2. The objected will be removed and the inpainted video will be saved in `results/inpainting` folder.**
+
 ![](results/sgif.gif)
+
+![](results/bag.mp4)
 
 ## I was really shocked by this overall visual effect.
 ---
