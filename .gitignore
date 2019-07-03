@@ -109,3 +109,6 @@ data/tennis
 results/data
 results/vinet_agg_rec
 .idea/
+data/woman
+results/inpainting
+

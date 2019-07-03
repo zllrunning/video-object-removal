@@ -24,18 +24,21 @@ python demo.py --data data/Human6
 ```
 python demo.py --data data/bag.avi
 ```
+- Another optional parameter : `--mask-dilation`
+
+```
+python demo.py --data data/Human6  --mask-dilation 24
+```
+This parameter controls the size of the dilation kernel used for the mask. The role is to expand the range of the mask to avoid edge problems. Please see `inpainting/davis.py` for more details.
+
 ---
 **1. Just draw a bounding box like this:**
 
 ![](results/get_mask.gif)
 
-**2. The objected will be removed and the inpainted video will be saved in `results/inpainting` folder.**
+**2. The objected will be removed and the inpainted video will be saved in `results/inpainting` folder.** (The Gif image loading takes some time, please wait a moment.)
 
 ![](results/sgif.gif)
-
-![](results/bag.mp4)
-
-## I was really shocked by this overall visual effect.
 ---
 
 ## Acknowledgement
