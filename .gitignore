@@ -102,3 +102,10 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+cp/save_agg_rec_512.pth
+cp/SiamMask_DAVIS.pth
+data/Biker
+data/tennis
+results/data
+results/vinet_agg_rec
+.idea/
