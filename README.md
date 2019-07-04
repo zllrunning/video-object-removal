@@ -9,8 +9,9 @@ git clone https://github.com/zllrunning/video-object-removal.git
 cd video-object-removal
 cd get_mask
 bash make.sh
-cd inpainting
+cd ../inpainting
 bash install.sh
+cd ..
 ```
 
 ## Demo

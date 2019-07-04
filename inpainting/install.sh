@@ -5,4 +5,6 @@ cd ../resample2d_package
 ./make.sh
 cd ../channelnorm_package 
 ./make.sh
-cd ../../..
+cd ../../models/correlation_package
+./make.sh
+cd ../../../
