@@ -30,7 +30,7 @@ def createVideoClip(clip, folder, name, size=[256, 256]):
 
 if __name__ == '__main__':
     out_frames = []
-    video_name = 'Human6'
+    video_name = 'surf'
     for path in sorted(glob.glob(os.path.join('data', video_name, '*.jp*'))):
         print(path)
         out_frame = cv2.imread(path)

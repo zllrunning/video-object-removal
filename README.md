@@ -40,6 +40,10 @@ This parameter controls the size of the dilation kernel used for the mask. The r
 **2. The objected will be removed and the inpainted video will be saved in `results/inpainting` folder.** (The Gif image loading takes some time, please wait a moment.)
 
 ![](results/sgif.gif)
+
+### Examples
+![](results/skate.gif)
+![](results/surf.gif)
 ---
 
 ## Acknowledgement
